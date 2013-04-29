@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+
+{% block subtitle %}
+  {% trans %} Unit {% endtrans %} {{ unit.index }}
+{% endblock subtitle %}
+
+{% block top_content %}
+{% endblock %}
+
+{% block main_content %}
+
+{% if is_read_write_course and is_course_admin %}
+  <a href="dashboard?action=edit_lesson&key={{ lesson_id }}"
+    class="gcb-button gcb-button-action">Edit activity</a>
+{% endif %}
+
+{% if lesson.now_available or is_course_admin %}
+  <script src="{{ activity_script_src }}"></script>
+{% endif %}
+
+{% if record_events %}
+<script>
+  gcbCanPostEvents = true;
+  eventXsrfToken = '{{ event_xsrf_token }}';
+</script>
+{% endif %}
+
+<div class="gcb-main">
+  <ul class="gcb-breadcrumb">
+    <li><a href="course">{% trans %} Course {% endtrans %}</a></li>
+    <li>
+      <a href="unit?unit={{ unit.unit_id }}">
+        {% trans %} Unit {% endtrans %}{{ unit.index }}</a></li>
+    {% if lesson %}
+      <li>
+        <a href="unit?unit={{ unit.unit_id }}&lesson={{ lesson.lesson_id }}">
+          {% trans %} Lesson {% endtrans %}{{ lesson.index }}</a></li>
+    {% endif %}
+    <li>{% trans %} Activity {% endtrans %}</li>
+  </ul>
+  <div>
+    <h1 class="class_header">
+      {{ gettext('Unit %(id)s - %(title)s', id=unit.index, title=unit.title) }}
+    </h1>
+  </div>
+
+  {% if lessons %}
+    {% include 'lesson_navbar.html' %}
+  {% endif %}
+
+  <div class="gcb-article tab-content" role="main">
+
+    {% if not lesson %}
+      <div style="padding-bottom: 20px;">
+        <div class="gcb-aside gcb-button-box">
+          {% trans %} This unit does not contain any lessons. {% endtrans %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% for lesson in lessons %}
+      {% if lesson.lesson_id == lesson_id %}
+
+        <div style="padding-bottom: 20px;">
+
+          <div class="gcb-aside">
+
+            {% if lesson.now_available or is_course_admin %}
+
+              <div class="gcb-cols">
+                <div class="gcb-col-7">
+                  <h1 class="lesson_title">
+                    {{ lesson.activity_title }}
+                    {% if not lesson.now_available and is_course_admin %}
+                      <span id="lesson-title-private">
+                        (Private)
+                      </span>
+                    {% endif %}
+                  </h1>
+                </div>
+                <div class="gcb-col-3">
+                  <p style="float:right; margin-top: 0px;">
+                    <a role="button" class="gcb-button gcb-button-primary" href="{{ lesson.notes }}" target="_blank">{% trans %} Text Version {% endtrans %}</a>
+                  </p>
+                </div>
+              </div><!-- /gcb-cols -->
+
+              <div style="width: 785px;" id="activityContents">
+              </div>
+
+            {% else %}
+
+              <h1 class="lesson_title">
+                {{ lesson.title }}
+              </h1>
+
+              <br><br>
+
+              <div class="gcb-button-box">
+                {% trans %} This lesson is not available. {% endtrans %}
+              </div>
+
+            {% endif %}
+
+          </div><!-- /gcb-aside -->
+
+          <div class="gcb-button-box">
+            <div class="prev-button" style="float:left; margin-top: 0px; margin-left: 40px;">
+              {% if back_button_url %}
+                <a href="{{ back_button_url }}"> {% trans %} Previous Page {% endtrans %} </a>
+              {% endif %}
+            </div>
+            <div class="next-button" style="float:right; margin-top: 0px; margin-right: 40px;">
+              {% if next_button_url %}
+                <a href="{{ next_button_url }}"> {% trans %} Next Page {% endtrans %} </a>
+              {% else %}
+                <a href="course"> {% trans %} End {% endtrans %} </a>
+              {% endif %}
+            </div>
+          </div>
+
+        </div>
+
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

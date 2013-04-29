@@ -1,0 +1,362 @@
+# Kannada translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-03-06 14:44-0800\n"
+"PO-Revision-Date: 2013-03-06 14:39-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: kn <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: experimental/coursebuilder/views/activity.html:4
+#: experimental/coursebuilder/views/activity.html:37
+#: experimental/coursebuilder/views/lesson_navbar.html:57
+#: experimental/coursebuilder/views/lesson_navbar.html:60
+#: experimental/coursebuilder/views/lesson_navbar.html:90
+msgid " Activity "
+msgstr " ಚಟುವಟಿಕೆ "
+
+#: experimental/coursebuilder/views/activity.html:30
+#: experimental/coursebuilder/views/base.html:15
+#: experimental/coursebuilder/views/base.html:111
+#: experimental/coursebuilder/views/base_registration.html:14
+#: experimental/coursebuilder/views/unit.html:20
+msgid " Course "
+msgstr " ಕೋರ್ಸ್ "
+
+#: experimental/coursebuilder/views/activity.html:33
+#: experimental/coursebuilder/views/unit.html:22
+msgid " Unit "
+msgstr " ಘಟಕ "
+
+#: experimental/coursebuilder/views/activity.html:36
+#: experimental/coursebuilder/views/unit.html:23
+msgid " Lesson "
+msgstr " ಪಾಠ "
+
+#: experimental/coursebuilder/views/activity.html:41
+#: experimental/coursebuilder/views/course.html:70
+#: experimental/coursebuilder/views/course.html:100
+#: experimental/coursebuilder/views/preview.html:39
+#: experimental/coursebuilder/views/unit.html:27
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr "ಘಟಕ %(id)s - %(title)s"
+
+#: experimental/coursebuilder/views/activity.html:70
+#: experimental/coursebuilder/views/unit.html:62
+msgid " Text Version "
+msgstr " ಪಠ್ಯ ಆವೃತ್ತಿ "
+
+#: experimental/coursebuilder/views/activity.html:87
+#: experimental/coursebuilder/views/unit.html:85
+msgid " This lesson is not available. "
+msgstr ""
+
+#: experimental/coursebuilder/views/activity.html:97
+#: experimental/coursebuilder/views/unit.html:95
+msgid " Previous Page "
+msgstr " ಹಿಂದಿನ ಪುಟ "
+
+#: experimental/coursebuilder/views/activity.html:102
+#: experimental/coursebuilder/views/unit.html:102
+msgid " Next Page "
+msgstr " ಮುಂದಿನ ಪುಟ "
+
+#: experimental/coursebuilder/views/activity.html:104
+#: experimental/coursebuilder/views/unit.html:106
+msgid " End "
+msgstr " ಅಂತ್ಯ "
+
+#: experimental/coursebuilder/views/announcements.html:4
+#: experimental/coursebuilder/views/base.html:106
+#: experimental/coursebuilder/views/base_registration.html:10
+msgid " Announcements "
+msgstr " ಪ್ರಕಟಣೆಗಳು "
+
+#: experimental/coursebuilder/views/announcements.html:18
+msgid " Add New "
+msgstr " ಹೊಸದನ್ನು ಸೇರಿಸಿ "
+
+#: experimental/coursebuilder/views/announcements.html:23
+msgid " No announcements yet. "
+msgstr " ಇದುವರೆಗೂ ಯಾವುದೇ ಪ್ರಕಟಣೆಗಳಿಲ್ಲ. "
+
+#: experimental/coursebuilder/views/announcements.html:32
+msgid " Delete "
+msgstr " ಅಳಿಸಿ "
+
+#: experimental/coursebuilder/views/announcements.html:38
+msgid " Edit "
+msgstr " ಸಂಪಾದಿಸಿ "
+
+#: experimental/coursebuilder/views/announcements.html:43
+msgid " (Draft) "
+msgstr " (ಕರಡು) "
+
+#: experimental/coursebuilder/views/assessment.html:4
+msgid " Assessment "
+msgstr " ನಿರ್ಧರಿಸುವಿಕೆ "
+
+#: experimental/coursebuilder/views/base.html:38
+msgid " Check Answer "
+msgstr " ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಿ "
+
+#: experimental/coursebuilder/views/base.html:39
+msgid " Check Answers "
+msgstr " ಉತ್ತರಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ "
+
+#: experimental/coursebuilder/views/base.html:40
+msgid " Skip and Show Answer "
+msgstr " ಉತ್ತರವನ್ನು ಬಿಟ್ಟುಬಿಡಿ ಮತ್ತು ತೋರಿಸಿ "
+
+#: experimental/coursebuilder/views/base.html:41
+msgid " Save Answers "
+msgstr " ಉತ್ತರಗಳನ್ನು ಉಳಿಸಿ "
+
+#: experimental/coursebuilder/views/base.html:42
+msgid " Please click one of the buttons for your answer. "
+msgstr " ನಿಮ್ಮ ಉತ್ತರಕ್ಕಾಗಿ ಬಟನ್‌ಗಳಲ್ಲಿ ಒಂದನ್ನು ದಯವಿಟ್ಟು ಕ್ಲಿಕ್ ಮಾಡಿ. "
+
+#: experimental/coursebuilder/views/base.html:43
+msgid " All your answers are correct! "
+msgstr " ನಿಮ್ಮ ಎಲ್ಲಾ ಉತ್ತರಗಳು ಸರಿಯಾಗಿವೆ! "
+
+#: experimental/coursebuilder/views/base.html:44
+msgid " Number of questions you answered correctly "
+msgstr " ನೀವು ಸರಿಯಾಗಿ ಉತ್ತರಿಸಿದ ಪ್ರಶ್ನೆಗಳ ಸಂಖ್ಯೆ "
+
+#: experimental/coursebuilder/views/base.html:45
+msgid " You received a score on this assessment of "
+msgstr " ನೀವು ಈ ನಿರ್ಧಾರದ ಮೇಲೆ ಸ್ಕೋರ್ ಅನ್ನು ಸ್ವೀಕರಿಸಿರುವಿರಿ "
+
+#: experimental/coursebuilder/views/base.html:46
+msgid " Here are lessons you could review to improve your score "
+msgstr ""
+" ನಿಮ್ಮ ಸ್ಕೋರ್ ಅನ್ನು ಸುಧಾರಿಸಿಕೊಳ್ಳಲು ನೀವು ಪರಿಶೀಲಿಸಬೇಕಾದ ಕೆಲವು ಪಾಠಗಳು "
+"ಇಲ್ಲಿವೆ "
+
+#: experimental/coursebuilder/views/base.html:48
+msgid ""
+" Congratulations! Press the \\'Save Answers\\' button to submit your "
+"grade. "
+msgstr ""
+" ಅಭಿನಂದನೆಗಳು! ನಿಮ್ಮ ದರ್ಜೆಯನ್ನು ಸಲ್ಲಿಸಲು \\'ಉತ್ತರಗಳನ್ನು ಉಳಿಸಿ\\' ಬಟನ್ "
+"ಅನ್ನು ಒತ್ತಿರಿ. "
+
+#: experimental/coursebuilder/views/base.html:50
+msgid ""
+" Press the \\'Save Answers\\' button below to save your scores. You can "
+"also edit your answers above before clicking \\'Save Answers\\'. "
+msgstr ""
+" ನಿಮ್ಮ ಸ್ಕೋರ್‌ಗಳನ್ನು ಉಳಿಸಲು ಕೆಳಗಿನ \\'ಉತ್ತರಗಳನ್ನು ಉಳಿಸಿ\\' ಬಟನ್ ಅನ್ನು "
+"ಒತ್ತಿರಿ. ನಿಮ್ಮ ಉತ್ತರಗಳನ್ನು \\'ಉತ್ತರಗಳನ್ನು ಉಳಿಸಿ\\' ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವ "
+"ಮುಂಚೆ ಮೇಲ್ಭಾಗದಲ್ಲಿ ನೀವು ಸಂಪಾದಿಸಬಹುದು. "
+
+#: experimental/coursebuilder/views/base.html:87
+msgid " Logout "
+msgstr " ಲಾಗ್ಔಟ್ "
+
+#: experimental/coursebuilder/views/base.html:92
+msgid " Login "
+msgstr " ಲಾಗಿನ್ "
+
+#: experimental/coursebuilder/views/base.html:117
+#: experimental/coursebuilder/views/forum.html:4
+msgid " Forum "
+msgstr " ಫೋರಮ್ "
+
+#: experimental/coursebuilder/views/base.html:123
+#: experimental/coursebuilder/views/student_profile.html:4
+msgid " My Profile "
+msgstr " ನನ್ನ ಪ್ರೊಫೈಲ್ "
+
+#: experimental/coursebuilder/views/base.html:169
+msgid " Privacy &amp; Terms "
+msgstr " ಗೌಪ್ಯತೆ &amp; ನಿಯಮಗಳು "
+
+#: experimental/coursebuilder/views/base_registration.html:17
+msgid " Registration "
+msgstr " ನೋಂದಣಿ "
+
+#: experimental/coursebuilder/views/confirmation.html:15
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Unfortunately, the course"
+" is now full, so registration has closed."
+msgstr ""
+"%(course_title)s ಗಾಗಿ ನೋಂದಣಿಗೊಂಡಿದ್ದಕ್ಕಾಗಿ ನಿಮಗೆ ಧನ್ಯವಾದಗಳು. "
+"ದುರದೃಷ್ಟವಶಾತ್, ಕೋರ್ಸ್ ಇದೀಗ ಭರ್ತಿಯಾಗಿದೆ, ಹಾಗಾಗಿ ನೋಂದಣಿಯನ್ನು ಮುಚ್ಚಲಾಗಿದೆ."
+
+#: experimental/coursebuilder/views/confirmation.html:20
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Stay tuned for more "
+"information about the course which will start on %(start_date)s."
+msgstr ""
+"%(course_title)s ಗಾಗಿ ನೋಂದಣಿಗೊಂಡಿದ್ದಕ್ಕಾಗಿ ನಿಮಗೆ ಧನ್ಯವಾದಗಳು. "
+"%(start_date)s ರಂದು ಪ್ರಾರಂಭವಾಗುವ ಕೋರ್ಸ್ ಬಗ್ಗೆ ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ಸದಾಕಾಲ "
+"ಟ್ಯೂನ್ ಆಗಿರಿ."
+
+#: experimental/coursebuilder/views/confirmation.html:27
+msgid ""
+" To participate in community discussions about this course, register for "
+"the web forum at "
+msgstr ""
+" ಈ ಕೋರ್ಸ್‌ನ ಕುರಿತ ಸಮುದಾಯ ಚರ್ಚೆಗಳಲ್ಲಿ ಭಾಗವಹಿಸಲು, ಇದರಲ್ಲಿರುವ ವೆಬ್ "
+"ಫೋರಮ್‌ನಲ್ಲಿ ನೋಂದಣಿ ಮಾಡಿ "
+
+#: experimental/coursebuilder/views/confirmation.html:31
+msgid " On that page, click on <b>Join Group</b> "
+msgstr " ಆ ಪುಟದಲ್ಲಿ, <b>ಸಮೂಹವನ್ನು ಸೇರಿ</b> ಕ್ಲಿಕ್ ಮಾಡಿ "
+
+#: experimental/coursebuilder/views/confirmation.html:37
+msgid ""
+" To receive announcements about this course, register for the "
+"announcements-only email list at "
+msgstr ""
+" ಈ ಕೋರ್ಸ್ ಕುರಿತು ಪ್ರಕಟಣೆಗಳನ್ನು ಸ್ವೀಕರಿಸಲು, ಇದರಲ್ಲಿರುವ ಪ್ರಕಟಣೆಗಳು-ಮಾತ್ರ "
+"ಇಮೇಲ್ ಪಟ್ಟಿಗೆ ನೋಂದಣೆ ಮಾಡಿ "
+
+#: experimental/coursebuilder/views/confirmation.html:41
+msgid ""
+" On that page, click on <b>Join Group</b>. In the dialog box that "
+"appears, under <b>How do you want to read this group?</b>, choose "
+"<b>Email</b>. "
+msgstr ""
+" ಆ ಪುಟದಲ್ಲಿ, <b>ಸಮೂಹವನ್ನು ಸೇರಿ</b> ಕ್ಲಿಕ್ ಮಾಡಿ. ಗೋಚರಿಸುವ ಸಂವಾದ "
+"ಪೆಟ್ಟಿಗೆಯಲ್ಲಿರುವ, <b>ನೀವು ಈ ಸಮೂಹವನ್ನು ಹೇಗೆ ಓದಲು ಬಯಸುತ್ತೀರಿ?</b> ಅಡಿಯಲ್ಲಿ,"
+" <b>ಇಮೇಲ್</b> ಆಯ್ಕೆಮಾಡಿ. "
+
+#: experimental/coursebuilder/views/course.html:20
+#: experimental/coursebuilder/views/preview.html:28
+msgid " Schedule "
+msgstr " ವೇಳಾಪಟ್ಟಿ "
+
+#: experimental/coursebuilder/views/course.html:31
+#: experimental/coursebuilder/views/course.html:32
+#: experimental/coursebuilder/views/course.html:48
+#: experimental/coursebuilder/views/course.html:49
+#: experimental/coursebuilder/views/lesson_navbar.html:35
+#: experimental/coursebuilder/views/lesson_navbar.html:36
+msgid " Completed "
+msgstr " ಪೂರ್ಣಗೊಂಡಿದೆ "
+
+#: experimental/coursebuilder/views/course.html:37
+#: experimental/coursebuilder/views/course.html:38
+msgid " Not yet submitted "
+msgstr " ಇನ್ನೂ ಸಲ್ಲಿಸಿಲ್ಲ "
+
+#: experimental/coursebuilder/views/course.html:54
+#: experimental/coursebuilder/views/course.html:55
+#: experimental/coursebuilder/views/lesson_navbar.html:41
+#: experimental/coursebuilder/views/lesson_navbar.html:42
+msgid " In progress "
+msgstr " ಪ್ರಗತಿಯಲ್ಲಿದೆ "
+
+#: experimental/coursebuilder/views/course.html:60
+#: experimental/coursebuilder/views/course.html:61
+#: experimental/coursebuilder/views/lesson_navbar.html:47
+#: experimental/coursebuilder/views/lesson_navbar.html:48
+msgid " Not yet started "
+msgstr " ಇನ್ನೂ ಪ್ರಾರಂಭಿಸಿಲ್ಲ "
+
+#: experimental/coursebuilder/views/preview.html:12
+msgid " Register "
+msgstr " ನೋಂದಾಯಿಸಿ "
+
+#: experimental/coursebuilder/views/register.html:22
+msgid " What is your name? "
+msgstr " ನಿಮ್ಮ ಹೆಸರೇನು? "
+
+#: experimental/coursebuilder/views/register.html:31
+msgid " Enroll "
+msgstr " ದಾಖಲಿಸು "
+
+#: experimental/coursebuilder/views/student_profile.html:15
+msgid " Student Profile for "
+msgstr " ಇದಕ್ಕಾಗಿ ವಿದ್ಯಾರ್ಥಿ ಪ್ರೊಫೈಲ್ "
+
+#: experimental/coursebuilder/views/student_profile.html:26
+msgid " Currently enrolled "
+msgstr " ಪ್ರಸ್ತುತ ದಾಖಲಾಗಿರುವವರು "
+
+#: experimental/coursebuilder/views/student_profile.html:30
+msgid " Date enrolled "
+msgstr " ದಾಖಲಾದ ದಿನಾಂಕ "
+
+#: experimental/coursebuilder/views/student_profile.html:34
+msgid " Email "
+msgstr " ಇಮೇಲ್ "
+
+#: experimental/coursebuilder/views/student_profile.html:38
+msgid " Name "
+msgstr " ಹೆಸರು "
+
+#: experimental/coursebuilder/views/student_profile.html:43
+msgid " Assessment scores "
+msgstr " ನಿರ್ಧಾರದ ಸ್ಕೋರ್‌ಗಳು "
+
+#: experimental/coursebuilder/views/student_profile.html:59
+msgid " Overall course score "
+msgstr " ಕೋರ್ಸ್‌ನ ಒಟ್ಟಾರೆ ಸ್ಕೋರ್ "
+
+#: experimental/coursebuilder/views/student_profile.html:69
+msgid " New Name "
+msgstr " ಹೊಸ ಹೆಸರು "
+
+#: experimental/coursebuilder/views/student_profile.html:76
+msgid " Save Changes "
+msgstr " ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ "
+
+#: experimental/coursebuilder/views/student_profile.html:79
+msgid " Cancel "
+msgstr " ರದ್ದು ಮಾಡು "
+
+#: experimental/coursebuilder/views/student_profile.html:84
+msgid " To leave the course permanently, click on Unenroll "
+msgstr " ಕೋರ್ಸ್ ಅನ್ನು ಶಾಶ್ವತವಾಗಿ ಬಿಡಲು, ದಾಖಲಾತಿ ರದ್ದುಪಡಿಸು ಕ್ಲಿಕ್ ಮಾಡಿ "
+
+#: experimental/coursebuilder/views/student_profile.html:87
+msgid " Unenroll "
+msgstr " ದಾಖಲಾತಿ ರದ್ದುಪಡಿಸು "
+
+#: experimental/coursebuilder/views/summary.html:21
+#: experimental/coursebuilder/views/unit.html:69
+msgid " YouTube Video Player "
+msgstr " YouTube ವೀಡಿಯೊ ಪ್ಲೇಯರ್ "
+
+#: experimental/coursebuilder/views/test_confirmation.html:29
+msgid " Back to Course page "
+msgstr " ಕೋರ್ಸ್ ಪುಟಕ್ಕೆ ಹೋಗು "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:12
+msgid " You have been unenrolled from "
+msgstr " ನೀವು ಇದರಿಂದ ದಾಖಲಾತಿಯನ್ನು ರದ್ದುಗೊಳಿಸಿರುವಿರಿ "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:17
+msgid " OK "
+msgstr " ಸರಿ "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:12
+msgid " Are you sure you want to unenroll from "
+msgstr " ಇದರಿಂದ ದಾಖಲಾತಿ ರದ್ದುಗೊಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:19
+msgid " Yes "
+msgstr " ಹೌದು "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:22
+msgid " No "
+msgstr " ಇಲ್ಲ "
+

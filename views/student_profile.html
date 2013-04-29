@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+{% block subtitle %}
+  {% trans %} My Profile {% endtrans %}
+{% endblock subtitle %}
+
+{% block top_content %}
+{% endblock %}
+
+{% block main_content %}
+<div class="gcb-main">
+  <div class="gcb-article tab-content">
+    <div class="gcb-aside">
+      <h2>
+        {% trans %} Student Profile for {% endtrans %}
+        {{ student.key().name() }}
+      </h2>
+
+      {% if student %}
+      <table style="border-collapse:collapse;">
+        <colgroup>
+          <col style="width: 10%">
+          <col>
+        </colgroup>
+        <tr>
+          <th align="left">{% trans %} Currently enrolled {% endtrans %}</th>
+          <td>{{ student.is_enrolled }}</td>
+        </tr>
+        <tr>
+          <th align="left">{% trans %} Date enrolled {% endtrans %}</th>
+          <td>{{ student.enrolled_on }}</td>
+        </tr>
+        <tr>
+          <th align="left">{% trans %} Email {% endtrans %}</th>
+          <td>{{ student.key().name() }}</td>
+        </tr>
+        <tr>
+          <th align="left">{% trans %} Name {% endtrans %}</th>
+          <td>{{ student.name }}</td>
+        </tr>
+
+        <tr>
+          <th align="left" colspan=2>{% trans %} Assessment scores {% endtrans %}</th>
+        </tr>
+
+        {% for assessment in score_list %}
+          <tr>
+            <th align="left">&nbsp;&nbsp;&nbsp;{{ assessment['title'] }}</th>
+            <td>
+              {% if 'score' in assessment and assessment['score'] is defined %}
+                <span id="assessment-score-{{assessment['title']}}">{{ assessment['score'] }}</span>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+
+        {% if overall_score != None %}
+          <tr>
+            <th align="left">{% trans %} Overall course score {% endtrans %}</th>
+            <td>
+              <span id="assessment-score-overall">{{ overall_score }}</span>
+            </td>
+          </tr>
+        {% endif %}
+      </table>
+
+      <form action='student/editstudent' method='post'>
+        <input type="hidden" name="xsrf_token" value="{{ student_edit_xsrf_token|escape }}">
+        <h2><label for="name">{% trans %} New Name {% endtrans %}</label></h2>
+        <fieldset style="border: none;">
+          <p><input name="name" id="name" type="text" size="40">
+            <input type="hidden" name="email" value="{{ student.key().name() }}"></p>
+        </fieldset>
+
+        <p><button class="gcb-button" type="submit">
+          {% trans %} Save Changes {% endtrans %}
+        </button> &nbsp;&nbsp;&nbsp;
+          <a href="student/home" class="gcb-button" role="button">
+            {% trans %} Cancel {% endtrans %}
+          </a>
+        </p>
+      </form>
+
+      <h2>{% trans %} To leave the course permanently, click on Unenroll {% endtrans %}</h2>
+
+      <p><a role="button" href="student/unenroll" class="gcb-button">
+        {% trans %} Unenroll {% endtrans %}
+      </a></p>
+
+      {% else %}
+      <p>Student profile not found ...</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,359 @@
+# Zulu translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-03-06 14:44-0800\n"
+"PO-Revision-Date: 2013-03-06 14:39-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: zu <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: experimental/coursebuilder/views/activity.html:4
+#: experimental/coursebuilder/views/activity.html:37
+#: experimental/coursebuilder/views/lesson_navbar.html:57
+#: experimental/coursebuilder/views/lesson_navbar.html:60
+#: experimental/coursebuilder/views/lesson_navbar.html:90
+msgid " Activity "
+msgstr " Umsebenzi "
+
+#: experimental/coursebuilder/views/activity.html:30
+#: experimental/coursebuilder/views/base.html:15
+#: experimental/coursebuilder/views/base.html:111
+#: experimental/coursebuilder/views/base_registration.html:14
+#: experimental/coursebuilder/views/unit.html:20
+msgid " Course "
+msgstr " Isifundo "
+
+#: experimental/coursebuilder/views/activity.html:33
+#: experimental/coursebuilder/views/unit.html:22
+msgid " Unit "
+msgstr " Iyunithi "
+
+#: experimental/coursebuilder/views/activity.html:36
+#: experimental/coursebuilder/views/unit.html:23
+msgid " Lesson "
+msgstr " Isifundo "
+
+#: experimental/coursebuilder/views/activity.html:41
+#: experimental/coursebuilder/views/course.html:70
+#: experimental/coursebuilder/views/course.html:100
+#: experimental/coursebuilder/views/preview.html:39
+#: experimental/coursebuilder/views/unit.html:27
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr "Iyunithi %(id)s - %(title)s"
+
+#: experimental/coursebuilder/views/activity.html:70
+#: experimental/coursebuilder/views/unit.html:62
+msgid " Text Version "
+msgstr " Inguqulo yombhalo "
+
+#: experimental/coursebuilder/views/activity.html:87
+#: experimental/coursebuilder/views/unit.html:85
+msgid " This lesson is not available. "
+msgstr ""
+
+#: experimental/coursebuilder/views/activity.html:97
+#: experimental/coursebuilder/views/unit.html:95
+msgid " Previous Page "
+msgstr " Ikhasi langaphambilini "
+
+#: experimental/coursebuilder/views/activity.html:102
+#: experimental/coursebuilder/views/unit.html:102
+msgid " Next Page "
+msgstr " Ikhasi elilandelayo "
+
+#: experimental/coursebuilder/views/activity.html:104
+#: experimental/coursebuilder/views/unit.html:106
+msgid " End "
+msgstr " Ekugcineni "
+
+#: experimental/coursebuilder/views/announcements.html:4
+#: experimental/coursebuilder/views/base.html:106
+#: experimental/coursebuilder/views/base_registration.html:10
+msgid " Announcements "
+msgstr " Izaziso "
+
+#: experimental/coursebuilder/views/announcements.html:18
+msgid " Add New "
+msgstr " Engeza okusha "
+
+#: experimental/coursebuilder/views/announcements.html:23
+msgid " No announcements yet. "
+msgstr " Azikho izaziso okwamanje "
+
+#: experimental/coursebuilder/views/announcements.html:32
+msgid " Delete "
+msgstr " Susa "
+
+#: experimental/coursebuilder/views/announcements.html:38
+msgid " Edit "
+msgstr " Hlela "
+
+#: experimental/coursebuilder/views/announcements.html:43
+msgid " (Draft) "
+msgstr " (Okungakapheli) "
+
+#: experimental/coursebuilder/views/assessment.html:4
+msgid " Assessment "
+msgstr " Ukuhlolwa "
+
+#: experimental/coursebuilder/views/base.html:38
+msgid " Check Answer "
+msgstr " Hlola impendulo "
+
+#: experimental/coursebuilder/views/base.html:39
+msgid " Check Answers "
+msgstr " Hlola izimpendulo "
+
+#: experimental/coursebuilder/views/base.html:40
+msgid " Skip and Show Answer "
+msgstr " Yeqa uphinde ubonise impendulo "
+
+#: experimental/coursebuilder/views/base.html:41
+msgid " Save Answers "
+msgstr " Londoloza izimpendulo "
+
+#: experimental/coursebuilder/views/base.html:42
+msgid " Please click one of the buttons for your answer. "
+msgstr " Sicela uchofoze enye yezinkinobho yempendulo yakho. "
+
+#: experimental/coursebuilder/views/base.html:43
+msgid " All your answers are correct! "
+msgstr " Zonke izimpendulo zakho zilungile! "
+
+#: experimental/coursebuilder/views/base.html:44
+msgid " Number of questions you answered correctly "
+msgstr " Inombolo yemibuzo oyiphendule ngokulungile "
+
+#: experimental/coursebuilder/views/base.html:45
+msgid " You received a score on this assessment of "
+msgstr " Uthole isikolo kulokhu kuhlolwa kwe- "
+
+#: experimental/coursebuilder/views/base.html:46
+msgid " Here are lessons you could review to improve your score "
+msgstr " Nazi izifundo ongazibuyekeza ukuze uthuthukise isikolo sakho "
+
+#: experimental/coursebuilder/views/base.html:48
+msgid ""
+" Congratulations! Press the \\'Save Answers\\' button to submit your "
+"grade. "
+msgstr ""
+" Siyakuhalalisela! Chofoza inkinobho ethi \\'Londoloza izimpendulo\\' "
+"ukuze uthumele izinga lakho. "
+
+#: experimental/coursebuilder/views/base.html:50
+msgid ""
+" Press the \\'Save Answers\\' button below to save your scores. You can "
+"also edit your answers above before clicking \\'Save Answers\\'. "
+msgstr ""
+" Chofoza inkinobho ethi \\'Londoloza izimpendulo\\' engezansi ukuze "
+"ulondoloze izikolo zakho. Ungaphinde uhlele izimpendulo zakho eziphezulu "
+"ngaphambi kokuchofoza \\'Ukulondoloza izimpendulo\\'. "
+
+#: experimental/coursebuilder/views/base.html:87
+msgid " Logout "
+msgstr " Phuma ngemvume "
+
+#: experimental/coursebuilder/views/base.html:92
+msgid " Login "
+msgstr " Ngena ngemvume "
+
+#: experimental/coursebuilder/views/base.html:117
+#: experimental/coursebuilder/views/forum.html:4
+msgid " Forum "
+msgstr " Ingosi "
+
+#: experimental/coursebuilder/views/base.html:123
+#: experimental/coursebuilder/views/student_profile.html:4
+msgid " My Profile "
+msgstr " Iphrofayela yami "
+
+#: experimental/coursebuilder/views/base.html:169
+msgid " Privacy &amp; Terms "
+msgstr " Ubumfihlo nemigomo "
+
+#: experimental/coursebuilder/views/base_registration.html:17
+msgid " Registration "
+msgstr " Ukubhalisa "
+
+#: experimental/coursebuilder/views/confirmation.html:15
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Unfortunately, the course"
+" is now full, so registration has closed."
+msgstr ""
+"Siyabonga ngokubhalisela i-%(course_title)s. Ngeshwa, lesi sifundo manje "
+"sesigcwele, ngakho-ke ukubhalisa kuvaliwe."
+
+#: experimental/coursebuilder/views/confirmation.html:20
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Stay tuned for more "
+"information about the course which will start on %(start_date)s."
+msgstr ""
+"Siyabonga ngokubhalisela i-%(course_title)s. Hlala ubhekile ukuze uthole "
+"olunye ulwazi mayelana nesifundo esiqala ngomhla ka-%(start_date)s."
+
+#: experimental/coursebuilder/views/confirmation.html:27
+msgid ""
+" To participate in community discussions about this course, register for "
+"the web forum at "
+msgstr ""
+" Ukuze ubambe iqhaza kuzingxoxo zomphakathi mayelana nalesi sifundo, "
+"bhalisela ingosi yewebhu ku- "
+
+#: experimental/coursebuilder/views/confirmation.html:31
+msgid " On that page, click on <b>Join Group</b> "
+msgstr " Kulelo khasi, chofoza kokuthi <b>joyina iqembu</b> "
+
+#: experimental/coursebuilder/views/confirmation.html:37
+msgid ""
+" To receive announcements about this course, register for the "
+"announcements-only email list at "
+msgstr ""
+" Ukuze uthole izaziso mayelana nalesi sifundo, bhalisela i-imeyili "
+"yezaziso kuphela ku- "
+
+#: experimental/coursebuilder/views/confirmation.html:41
+msgid ""
+" On that page, click on <b>Join Group</b>. In the dialog box that "
+"appears, under <b>How do you want to read this group?</b>, choose "
+"<b>Email</b>. "
+msgstr ""
+" Kulelo khasi,chofoza kokuthi <b>joyina iqembu</b>. Kubhokisi lengxoxo "
+"elivelayo, ngaphansi kokuthi <b>ufuna ukufunda kanjani leli qembu?</b>, "
+"khetha <b>i-imeyili</b>. "
+
+#: experimental/coursebuilder/views/course.html:20
+#: experimental/coursebuilder/views/preview.html:28
+msgid " Schedule "
+msgstr " Hlela "
+
+#: experimental/coursebuilder/views/course.html:31
+#: experimental/coursebuilder/views/course.html:32
+#: experimental/coursebuilder/views/course.html:48
+#: experimental/coursebuilder/views/course.html:49
+#: experimental/coursebuilder/views/lesson_navbar.html:35
+#: experimental/coursebuilder/views/lesson_navbar.html:36
+msgid " Completed "
+msgstr " Kuphelile "
+
+#: experimental/coursebuilder/views/course.html:37
+#: experimental/coursebuilder/views/course.html:38
+msgid " Not yet submitted "
+msgstr " Akukakathunyelwa okwamanje "
+
+#: experimental/coursebuilder/views/course.html:54
+#: experimental/coursebuilder/views/course.html:55
+#: experimental/coursebuilder/views/lesson_navbar.html:41
+#: experimental/coursebuilder/views/lesson_navbar.html:42
+msgid " In progress "
+msgstr " Kuyaqhubeka "
+
+#: experimental/coursebuilder/views/course.html:60
+#: experimental/coursebuilder/views/course.html:61
+#: experimental/coursebuilder/views/lesson_navbar.html:47
+#: experimental/coursebuilder/views/lesson_navbar.html:48
+msgid " Not yet started "
+msgstr " Akukakaqali okwamanje "
+
+#: experimental/coursebuilder/views/preview.html:12
+msgid " Register "
+msgstr " Bhalisa "
+
+#: experimental/coursebuilder/views/register.html:22
+msgid " What is your name? "
+msgstr " Ubani igama lakho? "
+
+#: experimental/coursebuilder/views/register.html:31
+msgid " Enroll "
+msgstr " Bhalisa "
+
+#: experimental/coursebuilder/views/student_profile.html:15
+msgid " Student Profile for "
+msgstr " Iphrofayela yesitshudeni ka- "
+
+#: experimental/coursebuilder/views/student_profile.html:26
+msgid " Currently enrolled "
+msgstr " Obhalisiwe manje "
+
+#: experimental/coursebuilder/views/student_profile.html:30
+msgid " Date enrolled "
+msgstr " Idethi yokubhaliswa "
+
+#: experimental/coursebuilder/views/student_profile.html:34
+msgid " Email "
+msgstr " I-imeyili "
+
+#: experimental/coursebuilder/views/student_profile.html:38
+msgid " Name "
+msgstr " Igama "
+
+#: experimental/coursebuilder/views/student_profile.html:43
+msgid " Assessment scores "
+msgstr " Izikolo zokuhlolwa "
+
+#: experimental/coursebuilder/views/student_profile.html:59
+msgid " Overall course score "
+msgstr " Sonke isikolo sesifundo "
+
+#: experimental/coursebuilder/views/student_profile.html:69
+msgid " New Name "
+msgstr " Igama elisha "
+
+#: experimental/coursebuilder/views/student_profile.html:76
+msgid " Save Changes "
+msgstr " Londoloza izinguquko "
+
+#: experimental/coursebuilder/views/student_profile.html:79
+msgid " Cancel "
+msgstr " Khansela "
+
+#: experimental/coursebuilder/views/student_profile.html:84
+msgid " To leave the course permanently, click on Unenroll "
+msgstr " Ukuze uhambe kusifundo ingunaphakade, chofoza ukuze uyeke ukubhalisa "
+
+#: experimental/coursebuilder/views/student_profile.html:87
+msgid " Unenroll "
+msgstr " Yekela ukubhalisa "
+
+#: experimental/coursebuilder/views/summary.html:21
+#: experimental/coursebuilder/views/unit.html:69
+msgid " YouTube Video Player "
+msgstr " Isidlali samavidiyo se-YouTube "
+
+#: experimental/coursebuilder/views/test_confirmation.html:29
+msgid " Back to Course page "
+msgstr " Buyela ekhasini lesifundo "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:12
+msgid " You have been unenrolled from "
+msgstr " Uyekiswe ukubhalisa kusukela ku- "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:17
+msgid " OK "
+msgstr " KULUNGILE "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:12
+msgid " Are you sure you want to unenroll from "
+msgstr " Ingabe uqinisekile ukuthi ufuna ukuyeka ukubhalisa kusukela ku- "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:19
+msgid " Yes "
+msgstr " Yebo "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:22
+msgid " No "
+msgstr " Cha "
+

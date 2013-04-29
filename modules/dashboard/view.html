@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="google" lang="en">
+  <head>
+    <base href="{{ gcb_course_base }}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>{{ page_title|safe }}</title>
+    <link rel="icon" href="" />
+    <style>
+        body, h3 {
+          margin: 0px;
+          padding: 0px;
+        }
+        body {
+          background-color: #f5f5f5;
+        }
+        form {
+          display: inline;
+        }
+        html, body, table, td, th {
+          font-family: arial,sans-serif;
+          font-size: 13px;
+        }
+        table {
+          width: 100%;
+          border-width: 1px;
+          border-spacing: 2px;
+          border-style: outset;
+          border-color: gray;
+          border-collapse: collapse;
+        }
+        table th {
+          border-width: 1px;
+          padding: 4px;
+          background-color: #f5f5f5;
+          border-style: inset;
+          border-color: gray;
+          text-align: center;
+        }
+        table td {
+          border-width: 1px;
+          padding: 8px;
+          border-style: inset;
+          border-color: gray;
+        }
+        div#gcb-user-bar {
+          padding: 4px;
+          float: right;
+          margin-right: 32px;
+        }
+        div#gcb-nav-bar {
+          margin: 0px;
+          padding: 8px;
+          background-color: #009A5D;
+          text-align: center;
+        }
+        div#gcb-main-area {
+          background-color: #FFFFFF;
+          text-align: center;
+        }
+        div#gcb-section {
+          padding-bottom: 4px;
+        }
+        div#gcb-main-content {
+          padding: 32px;
+          text-align: left;
+        }
+        div#gcb-footer {
+          text-align: center;
+          font-size: smaller;
+          padding: 4px;
+          border-top: solid 1px #B0FFB0;
+        }
+        h2 {
+          margin-left: 32px;
+        }
+        h3 {
+          border-bottom: solid 1px #999999;
+        }
+        p.page-description {
+          margin: 0;
+          padding: 0.4em 0 0 1em;
+          width: 40em;
+          text-align: left;
+        }
+        p.page-description, p.description {
+          font-size: 80%;
+          color: #666;
+        }
+        div#gcb-alerts-bar {
+          background-color: #ffffB7;
+          border: solid #cccca0 1px;
+          display: inline-block;
+          padding: 0.4em;
+          border-radius: 5px;
+          margin-top: 4px;
+        }
+        div#gcb-nav-bar a {
+          padding-left: 8px;
+          padding-right: 8px;
+          font-family: "open sans",arial,sans-serif;
+          font-size: 125%;
+          color: #FFFFFF;
+          font-weight: bold;
+          text-decoration: none;
+        }
+        div#gcb-nav-bar a:focus, div#gcb-nav-bar a:hover, div#gcb-nav-bar a:active {
+          text-decoration: underline;
+        }
+        div#gcb-nav-bar a.selected {
+          text-decoration: underline;
+        }
+        div#formContainer {
+          margin: 0;
+        }
+        .gcb-button {
+          font-family: "open sans",arial,sans-serif;
+          font-weight: bold;
+          font-size: inherit;
+          margin: 0px 0px 0px 8px;
+          padding: 4px 8px 4px 8px;
+          background-color: #404040;
+          color: #FFFFFF;
+          text-decoration: none;
+          border: none;
+        }
+        .pull-right {
+          float: right;
+        }
+        #gcb-section pre {
+          padding: 0px;
+          margin: 0px;
+        }
+        span.draft-label {
+          color: #999;
+        }
+    </style>
+  </head>
+  <body>
+  <div id='gcb-user-bar'>
+    {{ user_nav|safe }}
+  </div>
+  <h2>{{ page_title|safe }}</h2>
+  <div id='gcb-nav-bar'>
+    {{ top_nav|safe }}
+  </div>
+  <div id='gcb-main-area'>
+    {% if alerts %}
+      <div id="gcb-alerts-bar">
+        {{ alerts|safe }}
+      </div>
+    {% endif %}
+    {% if page_description %}
+      <p class="page-description">
+        {{ page_description|safe }}
+      </p>
+    {% endif %}
+    {% if sections %}
+    <div id='gcb-main-content'>
+      {% for section in sections %}
+      <div id='gcb-section'>
+        {% for action in section.actions %}
+          {% if action.href %}
+          <a id='{{ action.id }}' class="gcb-button pull-right" role="button"
+              href="{{ action.href }}" >{{ action.caption }}</a>
+          {% else %}
+          <form id='{{ action.id }}' action='{{ action.action }}' method='POST'>
+            <input type="hidden" name="xsrf_token" value="{{ action.xsrf_token }}">
+            <button class="gcb-button pull-right" type="submit">{{ action.caption }}</button>
+          </form>
+          {% endif %}
+        {% endfor %}
+        {% if section.actions %}
+          <div style='clear: both; padding-top: 2px;' />
+        {% endif %}
+        <h3>{{ section.title }}</h3>
+        {% if section.description %}
+          <p class="description">
+            {{ section.description|safe }}
+          </p>
+        {% endif %}
+        {% if section.pre %}
+        {{ section.pre|safe }}
+        {% else %}
+        <ol>
+          {% if not section.children %}
+          &lt; none &gt;
+          {% endif %}
+          {% for item in section.children %}
+          {% if 2 == (item|count) %}
+          <li>{{ item[0] }}: {{ item[1] }}</li>
+          {% else %}
+          <li>{{ item|safe }}</li>
+          {% endif %}
+          {% endfor %}
+        </ol>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if main_content %}
+    <div id='gcb-main-content'>
+        {{ main_content|safe }}
+    </div>
+    {% endif %}
+  </div>
+  <div id='gcb-footer'>
+    Powered by
+    <a target='_blank' href="https://code.google.com/p/course-builder/">
+      Course Builder</a>
+    &nbsp;|&nbsp;
+    {{ page_footer }}
+  </div>
+  </body>
+</html>

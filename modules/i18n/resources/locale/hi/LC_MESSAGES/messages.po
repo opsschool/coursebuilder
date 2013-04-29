@@ -1,0 +1,358 @@
+# Hindi translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-03-06 14:44-0800\n"
+"PO-Revision-Date: 2013-03-06 14:39-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: hi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: experimental/coursebuilder/views/activity.html:4
+#: experimental/coursebuilder/views/activity.html:37
+#: experimental/coursebuilder/views/lesson_navbar.html:57
+#: experimental/coursebuilder/views/lesson_navbar.html:60
+#: experimental/coursebuilder/views/lesson_navbar.html:90
+msgid " Activity "
+msgstr " गतिविधि "
+
+#: experimental/coursebuilder/views/activity.html:30
+#: experimental/coursebuilder/views/base.html:15
+#: experimental/coursebuilder/views/base.html:111
+#: experimental/coursebuilder/views/base_registration.html:14
+#: experimental/coursebuilder/views/unit.html:20
+msgid " Course "
+msgstr " पाठ्यक्रम "
+
+#: experimental/coursebuilder/views/activity.html:33
+#: experimental/coursebuilder/views/unit.html:22
+msgid " Unit "
+msgstr " इकाई "
+
+#: experimental/coursebuilder/views/activity.html:36
+#: experimental/coursebuilder/views/unit.html:23
+msgid " Lesson "
+msgstr " अध्याय "
+
+#: experimental/coursebuilder/views/activity.html:41
+#: experimental/coursebuilder/views/course.html:70
+#: experimental/coursebuilder/views/course.html:100
+#: experimental/coursebuilder/views/preview.html:39
+#: experimental/coursebuilder/views/unit.html:27
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr "इकाई %(id)s - %(title)s"
+
+#: experimental/coursebuilder/views/activity.html:70
+#: experimental/coursebuilder/views/unit.html:62
+msgid " Text Version "
+msgstr " पाठ संस्करण "
+
+#: experimental/coursebuilder/views/activity.html:87
+#: experimental/coursebuilder/views/unit.html:85
+msgid " This lesson is not available. "
+msgstr ""
+
+#: experimental/coursebuilder/views/activity.html:97
+#: experimental/coursebuilder/views/unit.html:95
+msgid " Previous Page "
+msgstr " पिछला पृष्ठ "
+
+#: experimental/coursebuilder/views/activity.html:102
+#: experimental/coursebuilder/views/unit.html:102
+msgid " Next Page "
+msgstr " अगला पृष्ठ "
+
+#: experimental/coursebuilder/views/activity.html:104
+#: experimental/coursebuilder/views/unit.html:106
+msgid " End "
+msgstr " समाप्‍त करें "
+
+#: experimental/coursebuilder/views/announcements.html:4
+#: experimental/coursebuilder/views/base.html:106
+#: experimental/coursebuilder/views/base_registration.html:10
+msgid " Announcements "
+msgstr " घोषणाएं "
+
+#: experimental/coursebuilder/views/announcements.html:18
+msgid " Add New "
+msgstr " नई जोड़ें "
+
+#: experimental/coursebuilder/views/announcements.html:23
+msgid " No announcements yet. "
+msgstr " अभी तक कोई घोषणा नहीं. "
+
+#: experimental/coursebuilder/views/announcements.html:32
+msgid " Delete "
+msgstr " हटाएं "
+
+#: experimental/coursebuilder/views/announcements.html:38
+msgid " Edit "
+msgstr " संपादित करें "
+
+#: experimental/coursebuilder/views/announcements.html:43
+msgid " (Draft) "
+msgstr " (ड्राफ़्ट) "
+
+#: experimental/coursebuilder/views/assessment.html:4
+msgid " Assessment "
+msgstr " आंकलन "
+
+#: experimental/coursebuilder/views/base.html:38
+msgid " Check Answer "
+msgstr " उत्तर जांचें "
+
+#: experimental/coursebuilder/views/base.html:39
+msgid " Check Answers "
+msgstr " उत्तर जांचें "
+
+#: experimental/coursebuilder/views/base.html:40
+msgid " Skip and Show Answer "
+msgstr " छोड़ें और उत्तर दिखाएं "
+
+#: experimental/coursebuilder/views/base.html:41
+msgid " Save Answers "
+msgstr " उत्तर सहेजें "
+
+#: experimental/coursebuilder/views/base.html:42
+msgid " Please click one of the buttons for your answer. "
+msgstr " कृपया अपने उत्तर के लिए बटन में से एक क्लिक करें. "
+
+#: experimental/coursebuilder/views/base.html:43
+msgid " All your answers are correct! "
+msgstr " आपके सभी उत्तर सही हैं! "
+
+#: experimental/coursebuilder/views/base.html:44
+msgid " Number of questions you answered correctly "
+msgstr " आपके द्वारा सही उत्तर दिए गए प्रश्नों की संख्या "
+
+#: experimental/coursebuilder/views/base.html:45
+msgid " You received a score on this assessment of "
+msgstr " आपको निम्न के इस आंकलन हेतु अंक प्राप्त हुआ है "
+
+#: experimental/coursebuilder/views/base.html:46
+msgid " Here are lessons you could review to improve your score "
+msgstr " अपने अंक में सुधार के लिए आप इन अध्यायों की समीक्षा कर सकते हैं. "
+
+#: experimental/coursebuilder/views/base.html:48
+msgid ""
+" Congratulations! Press the \\'Save Answers\\' button to submit your "
+"grade. "
+msgstr " बधाईयां! अपना ग्रेड सबमिट करने के लिए \\'उत्तर सहेजें\\' बटन दबाएं. "
+
+#: experimental/coursebuilder/views/base.html:50
+msgid ""
+" Press the \\'Save Answers\\' button below to save your scores. You can "
+"also edit your answers above before clicking \\'Save Answers\\'. "
+msgstr ""
+" अपने अंक सहेजने के लिए नीचे \\'उत्तर सहेजें\\' बटन दबाएं. आप \\'उत्तर "
+"सहेजें\\' क्लिक करने से पहले ऊपर अपने उत्तर संपादित भी कर सकते हैं. "
+
+#: experimental/coursebuilder/views/base.html:87
+msgid " Logout "
+msgstr " लॉग आउट करें "
+
+#: experimental/coursebuilder/views/base.html:92
+msgid " Login "
+msgstr " लॉगिन करें "
+
+#: experimental/coursebuilder/views/base.html:117
+#: experimental/coursebuilder/views/forum.html:4
+msgid " Forum "
+msgstr " फ़ोरम "
+
+#: experimental/coursebuilder/views/base.html:123
+#: experimental/coursebuilder/views/student_profile.html:4
+msgid " My Profile "
+msgstr " मेरी प्रोफ़ाइल "
+
+#: experimental/coursebuilder/views/base.html:169
+msgid " Privacy &amp; Terms "
+msgstr " गोपनीयता और शर्तें "
+
+#: experimental/coursebuilder/views/base_registration.html:17
+msgid " Registration "
+msgstr " पंजीकरण "
+
+#: experimental/coursebuilder/views/confirmation.html:15
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Unfortunately, the course"
+" is now full, so registration has closed."
+msgstr ""
+"%(course_title)s के लिए पंजीकरण करने हेतु धन्यवाद. दुर्भाग्यवश, पाठ्यक्रम"
+" की सीट अब भर गई है, इसलिए पंजीकरण बंद हो गया है."
+
+#: experimental/coursebuilder/views/confirmation.html:20
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Stay tuned for more "
+"information about the course which will start on %(start_date)s."
+msgstr ""
+"%(course_title)s के लिए पंजीकरण करने हेतु धन्यवाद. %(start_date)s से "
+"प्रारंभ होने वाले पाठ्यक्रम के बारे में अधिक जानकारी के लिए बने रहें."
+
+#: experimental/coursebuilder/views/confirmation.html:27
+msgid ""
+" To participate in community discussions about this course, register for "
+"the web forum at "
+msgstr ""
+" इस पाठ्यक्रम के बारे में बिरादरी की चर्चाओं में भाग लेने के लिए, इस पर "
+"वेब फ़ोरम के लिए पंजीकृत करें "
+
+#: experimental/coursebuilder/views/confirmation.html:31
+msgid " On that page, click on <b>Join Group</b> "
+msgstr " उस पृष्ठ पर, <b>समूह में शामिल हों</b> पर क्लिक करें "
+
+#: experimental/coursebuilder/views/confirmation.html:37
+msgid ""
+" To receive announcements about this course, register for the "
+"announcements-only email list at "
+msgstr ""
+" इस पाठ्यक्रम के बारे में घोषणाएं प्राप्त करने के लिए, इस पर केवल घोषणाओं"
+" वाली ईमेल सूची के लिए पंजीकृत करें "
+
+#: experimental/coursebuilder/views/confirmation.html:41
+msgid ""
+" On that page, click on <b>Join Group</b>. In the dialog box that "
+"appears, under <b>How do you want to read this group?</b>, choose "
+"<b>Email</b>. "
+msgstr ""
+" उस पृष्ठ पर, <b>समूह में शामिल हों</b> पर क्लिक करें. दिखने वाले संवाद "
+"बॉक्स में, <b>आप इस समूह को कैसे पढ़ना चाहते हैं?</b> के अंतर्गत, "
+"<b>ईमेल</b> चुनें. "
+
+#: experimental/coursebuilder/views/course.html:20
+#: experimental/coursebuilder/views/preview.html:28
+msgid " Schedule "
+msgstr " शेड्यूल "
+
+#: experimental/coursebuilder/views/course.html:31
+#: experimental/coursebuilder/views/course.html:32
+#: experimental/coursebuilder/views/course.html:48
+#: experimental/coursebuilder/views/course.html:49
+#: experimental/coursebuilder/views/lesson_navbar.html:35
+#: experimental/coursebuilder/views/lesson_navbar.html:36
+msgid " Completed "
+msgstr " पूर्ण "
+
+#: experimental/coursebuilder/views/course.html:37
+#: experimental/coursebuilder/views/course.html:38
+msgid " Not yet submitted "
+msgstr " अभी तक सबमिट नहीं किया गया "
+
+#: experimental/coursebuilder/views/course.html:54
+#: experimental/coursebuilder/views/course.html:55
+#: experimental/coursebuilder/views/lesson_navbar.html:41
+#: experimental/coursebuilder/views/lesson_navbar.html:42
+msgid " In progress "
+msgstr " प्रगति में है "
+
+#: experimental/coursebuilder/views/course.html:60
+#: experimental/coursebuilder/views/course.html:61
+#: experimental/coursebuilder/views/lesson_navbar.html:47
+#: experimental/coursebuilder/views/lesson_navbar.html:48
+msgid " Not yet started "
+msgstr " अब तक प्रारंभ नहीं किया गया "
+
+#: experimental/coursebuilder/views/preview.html:12
+msgid " Register "
+msgstr " पंजीकृत करें "
+
+#: experimental/coursebuilder/views/register.html:22
+msgid " What is your name? "
+msgstr " आपका नाम क्या है? "
+
+#: experimental/coursebuilder/views/register.html:31
+msgid " Enroll "
+msgstr " नामांकन करें "
+
+#: experimental/coursebuilder/views/student_profile.html:15
+msgid " Student Profile for "
+msgstr " इसके लिए छात्र प्रोफ़ाइल "
+
+#: experimental/coursebuilder/views/student_profile.html:26
+msgid " Currently enrolled "
+msgstr " वर्तमान में नामांकित "
+
+#: experimental/coursebuilder/views/student_profile.html:30
+msgid " Date enrolled "
+msgstr " नामांकन की तिथि "
+
+#: experimental/coursebuilder/views/student_profile.html:34
+msgid " Email "
+msgstr " ईमेल "
+
+#: experimental/coursebuilder/views/student_profile.html:38
+msgid " Name "
+msgstr " नाम "
+
+#: experimental/coursebuilder/views/student_profile.html:43
+msgid " Assessment scores "
+msgstr " आंकलन के अंक "
+
+#: experimental/coursebuilder/views/student_profile.html:59
+msgid " Overall course score "
+msgstr " समग्र पाठ्यक्रम अंक "
+
+#: experimental/coursebuilder/views/student_profile.html:69
+msgid " New Name "
+msgstr " नया नाम "
+
+#: experimental/coursebuilder/views/student_profile.html:76
+msgid " Save Changes "
+msgstr " परिवर्तन सहेजें "
+
+#: experimental/coursebuilder/views/student_profile.html:79
+msgid " Cancel "
+msgstr " रद्द करें "
+
+#: experimental/coursebuilder/views/student_profile.html:84
+msgid " To leave the course permanently, click on Unenroll "
+msgstr ""
+" इस पाठ्यक्रम को स्थायी रूप से छोड़ने के लिए, नामांकन रद्द करें क्लिक "
+"करें "
+
+#: experimental/coursebuilder/views/student_profile.html:87
+msgid " Unenroll "
+msgstr " नामांकन रद्द करें "
+
+#: experimental/coursebuilder/views/summary.html:21
+#: experimental/coursebuilder/views/unit.html:69
+msgid " YouTube Video Player "
+msgstr " YouTube वीडियो प्लेयर "
+
+#: experimental/coursebuilder/views/test_confirmation.html:29
+msgid " Back to Course page "
+msgstr " पाठ्यक्रम पृष्ठ पर वापस जाएं "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:12
+msgid " You have been unenrolled from "
+msgstr " आपने इससे नामांकन रद्द कर दिया है "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:17
+msgid " OK "
+msgstr " ठीक "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:12
+msgid " Are you sure you want to unenroll from "
+msgstr " क्या आप वाकई इससे नामांकन रद्द करना चाहते हैं "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:19
+msgid " Yes "
+msgstr " हां "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:22
+msgid " No "
+msgstr " नहीं "
+

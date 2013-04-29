@@ -1,0 +1,358 @@
+# Turkish translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-03-06 14:44-0800\n"
+"PO-Revision-Date: 2013-03-06 14:39-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: tr <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: experimental/coursebuilder/views/activity.html:4
+#: experimental/coursebuilder/views/activity.html:37
+#: experimental/coursebuilder/views/lesson_navbar.html:57
+#: experimental/coursebuilder/views/lesson_navbar.html:60
+#: experimental/coursebuilder/views/lesson_navbar.html:90
+msgid " Activity "
+msgstr " Etkinlik "
+
+#: experimental/coursebuilder/views/activity.html:30
+#: experimental/coursebuilder/views/base.html:15
+#: experimental/coursebuilder/views/base.html:111
+#: experimental/coursebuilder/views/base_registration.html:14
+#: experimental/coursebuilder/views/unit.html:20
+msgid " Course "
+msgstr " Kurs "
+
+#: experimental/coursebuilder/views/activity.html:33
+#: experimental/coursebuilder/views/unit.html:22
+msgid " Unit "
+msgstr " Ünite "
+
+#: experimental/coursebuilder/views/activity.html:36
+#: experimental/coursebuilder/views/unit.html:23
+msgid " Lesson "
+msgstr " Ders "
+
+#: experimental/coursebuilder/views/activity.html:41
+#: experimental/coursebuilder/views/course.html:70
+#: experimental/coursebuilder/views/course.html:100
+#: experimental/coursebuilder/views/preview.html:39
+#: experimental/coursebuilder/views/unit.html:27
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr "Ünite %(id)s - %(title)s"
+
+#: experimental/coursebuilder/views/activity.html:70
+#: experimental/coursebuilder/views/unit.html:62
+msgid " Text Version "
+msgstr " Metin Sürümü "
+
+#: experimental/coursebuilder/views/activity.html:87
+#: experimental/coursebuilder/views/unit.html:85
+msgid " This lesson is not available. "
+msgstr ""
+
+#: experimental/coursebuilder/views/activity.html:97
+#: experimental/coursebuilder/views/unit.html:95
+msgid " Previous Page "
+msgstr " Önceki Sayfa "
+
+#: experimental/coursebuilder/views/activity.html:102
+#: experimental/coursebuilder/views/unit.html:102
+msgid " Next Page "
+msgstr " Sonraki Sayfa "
+
+#: experimental/coursebuilder/views/activity.html:104
+#: experimental/coursebuilder/views/unit.html:106
+msgid " End "
+msgstr " Son "
+
+#: experimental/coursebuilder/views/announcements.html:4
+#: experimental/coursebuilder/views/base.html:106
+#: experimental/coursebuilder/views/base_registration.html:10
+msgid " Announcements "
+msgstr " Duyurular "
+
+#: experimental/coursebuilder/views/announcements.html:18
+msgid " Add New "
+msgstr " Yeni Ekle "
+
+#: experimental/coursebuilder/views/announcements.html:23
+msgid " No announcements yet. "
+msgstr " Henüz duyuru yok. "
+
+#: experimental/coursebuilder/views/announcements.html:32
+msgid " Delete "
+msgstr " Sil "
+
+#: experimental/coursebuilder/views/announcements.html:38
+msgid " Edit "
+msgstr " Düzenle "
+
+#: experimental/coursebuilder/views/announcements.html:43
+msgid " (Draft) "
+msgstr " (Taslak) "
+
+#: experimental/coursebuilder/views/assessment.html:4
+msgid " Assessment "
+msgstr " Değerlendirme "
+
+#: experimental/coursebuilder/views/base.html:38
+msgid " Check Answer "
+msgstr " Yanıtı Kontrol Et "
+
+#: experimental/coursebuilder/views/base.html:39
+msgid " Check Answers "
+msgstr " Yanıtları Kontrol Et "
+
+#: experimental/coursebuilder/views/base.html:40
+msgid " Skip and Show Answer "
+msgstr " Atla ve Yanıtı Göster "
+
+#: experimental/coursebuilder/views/base.html:41
+msgid " Save Answers "
+msgstr " Yanıtları Kaydet "
+
+#: experimental/coursebuilder/views/base.html:42
+msgid " Please click one of the buttons for your answer. "
+msgstr " Lütfen yanıtınızı vermek için düğmelerden birini tıklayın. "
+
+#: experimental/coursebuilder/views/base.html:43
+msgid " All your answers are correct! "
+msgstr " Tüm yanıtlarınız doğru! "
+
+#: experimental/coursebuilder/views/base.html:44
+msgid " Number of questions you answered correctly "
+msgstr " Doğru yanıtladığınız soru sayısı "
+
+#: experimental/coursebuilder/views/base.html:45
+msgid " You received a score on this assessment of "
+msgstr " Bu değerlendirmeden aldığınız skor: "
+
+#: experimental/coursebuilder/views/base.html:46
+msgid " Here are lessons you could review to improve your score "
+msgstr " Skorunuzu iyileştirmek için göz atabileceğiniz dersler: "
+
+#: experimental/coursebuilder/views/base.html:48
+msgid ""
+" Congratulations! Press the \\'Save Answers\\' button to submit your "
+"grade. "
+msgstr " Tebrikler! Notunuzu göndermek için \"Yanıtları Kaydet\" düğmesine basın. "
+
+#: experimental/coursebuilder/views/base.html:50
+msgid ""
+" Press the \\'Save Answers\\' button below to save your scores. You can "
+"also edit your answers above before clicking \\'Save Answers\\'. "
+msgstr ""
+" Skorlarınızı kaydetmek için aşağıdaki \"Yanıtları Kaydet\" düğmesine "
+"basın. Ayrıca, \"Yanıtları Kaydet\"i tıklamadan önce yanıtlarınızı "
+"yukarıda düzenleyebilirsiniz. "
+
+#: experimental/coursebuilder/views/base.html:87
+msgid " Logout "
+msgstr " Çıkış Yap "
+
+#: experimental/coursebuilder/views/base.html:92
+msgid " Login "
+msgstr " Giriş Yap "
+
+#: experimental/coursebuilder/views/base.html:117
+#: experimental/coursebuilder/views/forum.html:4
+msgid " Forum "
+msgstr " Forum "
+
+#: experimental/coursebuilder/views/base.html:123
+#: experimental/coursebuilder/views/student_profile.html:4
+msgid " My Profile "
+msgstr " Profilim "
+
+#: experimental/coursebuilder/views/base.html:169
+msgid " Privacy &amp; Terms "
+msgstr " Gizlilik ve Şartlar "
+
+#: experimental/coursebuilder/views/base_registration.html:17
+msgid " Registration "
+msgstr " Kayıt "
+
+#: experimental/coursebuilder/views/confirmation.html:15
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Unfortunately, the course"
+" is now full, so registration has closed."
+msgstr ""
+"%(course_title)s adlı kursa kaydolduğunuz için teşekkür ederiz. Maalesef "
+"kursun kontenjanı dolu olduğundan kayıtlar kapanmıştır."
+
+#: experimental/coursebuilder/views/confirmation.html:20
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Stay tuned for more "
+"information about the course which will start on %(start_date)s."
+msgstr ""
+"%(course_title)s adlı kursa kaydolduğunuz için teşekkür ederiz. "
+"%(start_date)s tarihinde başlayacak kursla ilgili daha fazla bilgi "
+"edinmek için bizi izlemeye devam edin."
+
+#: experimental/coursebuilder/views/confirmation.html:27
+msgid ""
+" To participate in community discussions about this course, register for "
+"the web forum at "
+msgstr ""
+" Bu kursla ilgili topluluk tartışmalarına katılmak için şu adresten Web "
+"forumuna kaydolun: "
+
+#: experimental/coursebuilder/views/confirmation.html:31
+msgid " On that page, click on <b>Join Group</b> "
+msgstr " İlgili sayfada <b>Gruba Katıl</b>'ı tıklayın "
+
+#: experimental/coursebuilder/views/confirmation.html:37
+msgid ""
+" To receive announcements about this course, register for the "
+"announcements-only email list at "
+msgstr ""
+" Bu kursla ilgili duyuruları almak için şu adresten yalnızca duyurulara "
+"yönelik e-posta listesine kaydolun: "
+
+#: experimental/coursebuilder/views/confirmation.html:41
+msgid ""
+" On that page, click on <b>Join Group</b>. In the dialog box that "
+"appears, under <b>How do you want to read this group?</b>, choose "
+"<b>Email</b>. "
+msgstr ""
+" İlgili sayfada <b>Gruba Katıl</b>'ı tıklayın. Görüntülenen iletişim "
+"kutusunda <b>Bu grubu nasıl okumak istersiniz?</b> sorusunun altında "
+"<b>E-posta</b>'yı seçin. "
+
+#: experimental/coursebuilder/views/course.html:20
+#: experimental/coursebuilder/views/preview.html:28
+msgid " Schedule "
+msgstr " Program "
+
+#: experimental/coursebuilder/views/course.html:31
+#: experimental/coursebuilder/views/course.html:32
+#: experimental/coursebuilder/views/course.html:48
+#: experimental/coursebuilder/views/course.html:49
+#: experimental/coursebuilder/views/lesson_navbar.html:35
+#: experimental/coursebuilder/views/lesson_navbar.html:36
+msgid " Completed "
+msgstr " Tamamlandı "
+
+#: experimental/coursebuilder/views/course.html:37
+#: experimental/coursebuilder/views/course.html:38
+msgid " Not yet submitted "
+msgstr " Henüz göndermedi "
+
+#: experimental/coursebuilder/views/course.html:54
+#: experimental/coursebuilder/views/course.html:55
+#: experimental/coursebuilder/views/lesson_navbar.html:41
+#: experimental/coursebuilder/views/lesson_navbar.html:42
+msgid " In progress "
+msgstr " Devam ediyor "
+
+#: experimental/coursebuilder/views/course.html:60
+#: experimental/coursebuilder/views/course.html:61
+#: experimental/coursebuilder/views/lesson_navbar.html:47
+#: experimental/coursebuilder/views/lesson_navbar.html:48
+msgid " Not yet started "
+msgstr " Henüz başlamadı "
+
+#: experimental/coursebuilder/views/preview.html:12
+msgid " Register "
+msgstr " Kaydol "
+
+#: experimental/coursebuilder/views/register.html:22
+msgid " What is your name? "
+msgstr " Adınız nedir? "
+
+#: experimental/coursebuilder/views/register.html:31
+msgid " Enroll "
+msgstr " Kayıt Yaptır "
+
+#: experimental/coursebuilder/views/student_profile.html:15
+msgid " Student Profile for "
+msgstr " Şu kurs için Öğrenci Profili: "
+
+#: experimental/coursebuilder/views/student_profile.html:26
+msgid " Currently enrolled "
+msgstr " Şu anda kayıt yaptırılanlar "
+
+#: experimental/coursebuilder/views/student_profile.html:30
+msgid " Date enrolled "
+msgstr " Kayıt tarihi "
+
+#: experimental/coursebuilder/views/student_profile.html:34
+msgid " Email "
+msgstr " E-posta "
+
+#: experimental/coursebuilder/views/student_profile.html:38
+msgid " Name "
+msgstr " Ad "
+
+#: experimental/coursebuilder/views/student_profile.html:43
+msgid " Assessment scores "
+msgstr " Değerlendirme skorları "
+
+#: experimental/coursebuilder/views/student_profile.html:59
+msgid " Overall course score "
+msgstr " Genel kurs skoru "
+
+#: experimental/coursebuilder/views/student_profile.html:69
+msgid " New Name "
+msgstr " Yeni Ad "
+
+#: experimental/coursebuilder/views/student_profile.html:76
+msgid " Save Changes "
+msgstr " Değişiklikleri Kaydet "
+
+#: experimental/coursebuilder/views/student_profile.html:79
+msgid " Cancel "
+msgstr " İptal "
+
+#: experimental/coursebuilder/views/student_profile.html:84
+msgid " To leave the course permanently, click on Unenroll "
+msgstr " Kurstan kalıcı olarak ayrılmak için, Kaydı Sil'i tıklayın "
+
+#: experimental/coursebuilder/views/student_profile.html:87
+msgid " Unenroll "
+msgstr " Kaydı Sil "
+
+#: experimental/coursebuilder/views/summary.html:21
+#: experimental/coursebuilder/views/unit.html:69
+msgid " YouTube Video Player "
+msgstr " YouTube Video Player "
+
+#: experimental/coursebuilder/views/test_confirmation.html:29
+msgid " Back to Course page "
+msgstr " Kurs sayfasına dön "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:12
+msgid " You have been unenrolled from "
+msgstr " Şu kurstan kaydınız silindi: "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:17
+msgid " OK "
+msgstr " Tamam "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:12
+msgid " Are you sure you want to unenroll from "
+msgstr " Şu kurstan kaydınızın silinmesini istediğinizden emin misiniz? "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:19
+msgid " Yes "
+msgstr " Evet "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:22
+msgid " No "
+msgstr " Hayır "
+

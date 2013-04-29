@@ -1,0 +1,33 @@
+application: opsschool  # FIXME: Replace this with your application id
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: false
+
+env_variables:
+  GCB_PRODUCT_VERSION: '1.3.1'
+
+inbound_services:
+- warmup
+
+builtins:
+- remote_api: on
+- deferred: on
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
+
+handlers:
+- url: /remote_api
+  script: $PYTHON_LIB/google/appengine/ext/remote_api/handler.py
+  login: admin
+- url: /_ah/dev_admin(/.*)?  # provides interactive console
+  script: $PYTHON_LIB/google/appengine/ext/admin
+  login: admin
+  secure: always
+- url: /.*
+  script: main.app
+

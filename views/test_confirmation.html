@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block top_content %}
+{% endblock %}
+
+{% block main_content %}
+
+<div class="gcb-cols">
+  <div class="gcb-col-1">
+  </div>
+  <div class="gcb-col-7 gcb-aside gcb-button-box">
+
+    <p class="top_content">
+      Thank you for taking the {{assessment_name | lower}}. Your score for this assessment
+      is {{score}}%. If you wish, you may return to the assessment and take it again.
+    </p>
+
+    <br>
+
+    {% if 'assessment_confirmations' in course_info and is_last_assessment and overall_score != None and result %}
+      <!-- Displays result-specific text for the final assessment. -->
+      <p class="top_content">
+        {{course_info.assessment_confirmations['result_text'][result] % overall_score}}
+      </p>
+    {% endif %}
+
+    <p>
+      <a class="gcb-button" href="course">
+        {% trans %} Back to Course page {% endtrans %}
+      </a>
+    </p>
+
+  </div>
+</div>
+
+{% endblock %}

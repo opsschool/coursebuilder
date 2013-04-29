@@ -1,0 +1,356 @@
+# Thai translations for PROJECT.
+# Copyright (C) 2013 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2013-03-06 14:44-0800\n"
+"PO-Revision-Date: 2013-03-06 14:39-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: th <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+
+#: experimental/coursebuilder/views/activity.html:4
+#: experimental/coursebuilder/views/activity.html:37
+#: experimental/coursebuilder/views/lesson_navbar.html:57
+#: experimental/coursebuilder/views/lesson_navbar.html:60
+#: experimental/coursebuilder/views/lesson_navbar.html:90
+msgid " Activity "
+msgstr " กิจกรรม "
+
+#: experimental/coursebuilder/views/activity.html:30
+#: experimental/coursebuilder/views/base.html:15
+#: experimental/coursebuilder/views/base.html:111
+#: experimental/coursebuilder/views/base_registration.html:14
+#: experimental/coursebuilder/views/unit.html:20
+msgid " Course "
+msgstr " หลักสูตร "
+
+#: experimental/coursebuilder/views/activity.html:33
+#: experimental/coursebuilder/views/unit.html:22
+msgid " Unit "
+msgstr " หน่วย "
+
+#: experimental/coursebuilder/views/activity.html:36
+#: experimental/coursebuilder/views/unit.html:23
+msgid " Lesson "
+msgstr " บทเรียน "
+
+#: experimental/coursebuilder/views/activity.html:41
+#: experimental/coursebuilder/views/course.html:70
+#: experimental/coursebuilder/views/course.html:100
+#: experimental/coursebuilder/views/preview.html:39
+#: experimental/coursebuilder/views/unit.html:27
+#, python-format
+msgid "Unit %(id)s - %(title)s"
+msgstr "หน่วย %(id)s - %(title)s"
+
+#: experimental/coursebuilder/views/activity.html:70
+#: experimental/coursebuilder/views/unit.html:62
+msgid " Text Version "
+msgstr " เวอร์ชันข้อความ "
+
+#: experimental/coursebuilder/views/activity.html:87
+#: experimental/coursebuilder/views/unit.html:85
+msgid " This lesson is not available. "
+msgstr ""
+
+#: experimental/coursebuilder/views/activity.html:97
+#: experimental/coursebuilder/views/unit.html:95
+msgid " Previous Page "
+msgstr " หน้าก่อนหน้า "
+
+#: experimental/coursebuilder/views/activity.html:102
+#: experimental/coursebuilder/views/unit.html:102
+msgid " Next Page "
+msgstr " หน้าถัดไป "
+
+#: experimental/coursebuilder/views/activity.html:104
+#: experimental/coursebuilder/views/unit.html:106
+msgid " End "
+msgstr " สิ้นสุด "
+
+#: experimental/coursebuilder/views/announcements.html:4
+#: experimental/coursebuilder/views/base.html:106
+#: experimental/coursebuilder/views/base_registration.html:10
+msgid " Announcements "
+msgstr " ประกาศ "
+
+#: experimental/coursebuilder/views/announcements.html:18
+msgid " Add New "
+msgstr " เพิ่มใหม่ "
+
+#: experimental/coursebuilder/views/announcements.html:23
+msgid " No announcements yet. "
+msgstr " ยังไม่มีประกาศ "
+
+#: experimental/coursebuilder/views/announcements.html:32
+msgid " Delete "
+msgstr " ลบ "
+
+#: experimental/coursebuilder/views/announcements.html:38
+msgid " Edit "
+msgstr " แก้ไข "
+
+#: experimental/coursebuilder/views/announcements.html:43
+msgid " (Draft) "
+msgstr " (ร่าง) "
+
+#: experimental/coursebuilder/views/assessment.html:4
+msgid " Assessment "
+msgstr " การประเมินผล "
+
+#: experimental/coursebuilder/views/base.html:38
+msgid " Check Answer "
+msgstr " ตรวจสอบคำตอบ "
+
+#: experimental/coursebuilder/views/base.html:39
+msgid " Check Answers "
+msgstr " ตรวจสอบคำตอบ "
+
+#: experimental/coursebuilder/views/base.html:40
+msgid " Skip and Show Answer "
+msgstr " ข้ามและแสดงคำตอบ "
+
+#: experimental/coursebuilder/views/base.html:41
+msgid " Save Answers "
+msgstr " บันทึกคำตอบ "
+
+#: experimental/coursebuilder/views/base.html:42
+msgid " Please click one of the buttons for your answer. "
+msgstr " โปรดคลิกปุ่มใดปุ่มหนึ่งเพื่อเลือกคำตอบของคุณ "
+
+#: experimental/coursebuilder/views/base.html:43
+msgid " All your answers are correct! "
+msgstr " คำตอบทั้งหมดของคุณถูกต้อง! "
+
+#: experimental/coursebuilder/views/base.html:44
+msgid " Number of questions you answered correctly "
+msgstr " จำนวนคำถามที่คุณตอบถูก "
+
+#: experimental/coursebuilder/views/base.html:45
+msgid " You received a score on this assessment of "
+msgstr " คุณได้รับคะแนนจากการประเมินผลนี้เท่ากับ "
+
+#: experimental/coursebuilder/views/base.html:46
+msgid " Here are lessons you could review to improve your score "
+msgstr " ต่อไปนี้คือบทเรียนที่คุณสามารถทบทวนเพื่อปรับปรุงคะแนนของคุณ "
+
+#: experimental/coursebuilder/views/base.html:48
+msgid ""
+" Congratulations! Press the \\'Save Answers\\' button to submit your "
+"grade. "
+msgstr " ขอแสดงความยินดี! กดปุ่ม \"บันทึกคำตอบ\" เพื่อส่งคะแนนของคุณ "
+
+#: experimental/coursebuilder/views/base.html:50
+msgid ""
+" Press the \\'Save Answers\\' button below to save your scores. You can "
+"also edit your answers above before clicking \\'Save Answers\\'. "
+msgstr ""
+" กดปุ่ม \"บันทึกคำตอบ\" ด้านล่างเพื่อบันทึกคะแนน "
+"คุณยังสามารถแก้ไขคำตอบของคุณด้านบนก่อนจะคลิก \"บันทึกคำตอบ\" ได้ด้วย "
+
+#: experimental/coursebuilder/views/base.html:87
+msgid " Logout "
+msgstr " ออกจากระบบ "
+
+#: experimental/coursebuilder/views/base.html:92
+msgid " Login "
+msgstr " ลงชื่อเข้าใช้ "
+
+#: experimental/coursebuilder/views/base.html:117
+#: experimental/coursebuilder/views/forum.html:4
+msgid " Forum "
+msgstr " ฟอรัม "
+
+#: experimental/coursebuilder/views/base.html:123
+#: experimental/coursebuilder/views/student_profile.html:4
+msgid " My Profile "
+msgstr " โปรไฟล์ของฉัน "
+
+#: experimental/coursebuilder/views/base.html:169
+msgid " Privacy &amp; Terms "
+msgstr " ข้อมูลส่วนบุคคลและข้อกำหนด "
+
+#: experimental/coursebuilder/views/base_registration.html:17
+msgid " Registration "
+msgstr " การลงทะเบียน "
+
+#: experimental/coursebuilder/views/confirmation.html:15
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Unfortunately, the course"
+" is now full, so registration has closed."
+msgstr ""
+"ขอขอบคุณที่ลงทะเบียนสำหรับ %(course_title)s "
+"น่าเสียดายที่หลักสูตรนี้เต็มแล้ว จึงได้ปิดการลงทะเบียนไปแล้ว"
+
+#: experimental/coursebuilder/views/confirmation.html:20
+#, python-format
+msgid ""
+"Thank you for registering for %(course_title)s. Stay tuned for more "
+"information about the course which will start on %(start_date)s."
+msgstr ""
+"ขอขอบคุณที่ลงทะเบียนสำหรับ %(course_title)s "
+"โปรดคอยติดตามข้อมูลเพิ่มเติมเกี่ยวกับหลักสูตรนี้ซึ่งจะเริ่มในวันที่ "
+"%(start_date)s"
+
+#: experimental/coursebuilder/views/confirmation.html:27
+msgid ""
+" To participate in community discussions about this course, register for "
+"the web forum at "
+msgstr ""
+" หากต้องการเข้าร่วมการสนทนาชุมชนเกี่ยวกับหลักสูตรนี้ "
+"ให้ลงทะเบียนเว็บฟอรัมที่ "
+
+#: experimental/coursebuilder/views/confirmation.html:31
+msgid " On that page, click on <b>Join Group</b> "
+msgstr " บนหน้านั้น ให้คลิก <b>เข้าร่วมกลุ่ม</b> "
+
+#: experimental/coursebuilder/views/confirmation.html:37
+msgid ""
+" To receive announcements about this course, register for the "
+"announcements-only email list at "
+msgstr ""
+" หากต้องการรับประกาศเกี่ยวกับหลักสูตรนี้ "
+"ให้ลงทะเบียนรายการอีเมลสำหรับประกาศเท่านั้นที่ "
+
+#: experimental/coursebuilder/views/confirmation.html:41
+msgid ""
+" On that page, click on <b>Join Group</b>. In the dialog box that "
+"appears, under <b>How do you want to read this group?</b>, choose "
+"<b>Email</b>. "
+msgstr ""
+" บนหน้านั้น ให้คลิก <b>เข้าร่วมกลุ่ม</b> ในช่องโต้ตอบที่ปรากฏขึ้นมา "
+"ด้านล่าง <b>คุณต้องการอ่านกลุ่มนี้อย่างไร</b> ให้เลือก <b>อีเมล</b> "
+
+#: experimental/coursebuilder/views/course.html:20
+#: experimental/coursebuilder/views/preview.html:28
+msgid " Schedule "
+msgstr " กำหนดการ "
+
+#: experimental/coursebuilder/views/course.html:31
+#: experimental/coursebuilder/views/course.html:32
+#: experimental/coursebuilder/views/course.html:48
+#: experimental/coursebuilder/views/course.html:49
+#: experimental/coursebuilder/views/lesson_navbar.html:35
+#: experimental/coursebuilder/views/lesson_navbar.html:36
+msgid " Completed "
+msgstr " เสร็จสมบูรณ์ "
+
+#: experimental/coursebuilder/views/course.html:37
+#: experimental/coursebuilder/views/course.html:38
+msgid " Not yet submitted "
+msgstr " ยังไม่ได้ส่ง "
+
+#: experimental/coursebuilder/views/course.html:54
+#: experimental/coursebuilder/views/course.html:55
+#: experimental/coursebuilder/views/lesson_navbar.html:41
+#: experimental/coursebuilder/views/lesson_navbar.html:42
+msgid " In progress "
+msgstr " กำลังดำเนินการ "
+
+#: experimental/coursebuilder/views/course.html:60
+#: experimental/coursebuilder/views/course.html:61
+#: experimental/coursebuilder/views/lesson_navbar.html:47
+#: experimental/coursebuilder/views/lesson_navbar.html:48
+msgid " Not yet started "
+msgstr " ยังไม่ได้เริ่ม "
+
+#: experimental/coursebuilder/views/preview.html:12
+msgid " Register "
+msgstr " ลงทะเบียน "
+
+#: experimental/coursebuilder/views/register.html:22
+msgid " What is your name? "
+msgstr " โปรดระบุชื่อของคุณ "
+
+#: experimental/coursebuilder/views/register.html:31
+msgid " Enroll "
+msgstr " ลงทะเบียน "
+
+#: experimental/coursebuilder/views/student_profile.html:15
+msgid " Student Profile for "
+msgstr " โปรไฟล์นักเรียนสำหรับ "
+
+#: experimental/coursebuilder/views/student_profile.html:26
+msgid " Currently enrolled "
+msgstr " ลงทะเบียนแล้วในปัจจุบัน "
+
+#: experimental/coursebuilder/views/student_profile.html:30
+msgid " Date enrolled "
+msgstr " วันที่ลงทะเบียน "
+
+#: experimental/coursebuilder/views/student_profile.html:34
+msgid " Email "
+msgstr " อีเมล "
+
+#: experimental/coursebuilder/views/student_profile.html:38
+msgid " Name "
+msgstr " ชื่อ "
+
+#: experimental/coursebuilder/views/student_profile.html:43
+msgid " Assessment scores "
+msgstr " คะแนนการประเมิน "
+
+#: experimental/coursebuilder/views/student_profile.html:59
+msgid " Overall course score "
+msgstr " คะแนนรวมหลักสูตร "
+
+#: experimental/coursebuilder/views/student_profile.html:69
+msgid " New Name "
+msgstr " ชื่อใหม่ "
+
+#: experimental/coursebuilder/views/student_profile.html:76
+msgid " Save Changes "
+msgstr " บันทึกการเปลี่ยนแปลง "
+
+#: experimental/coursebuilder/views/student_profile.html:79
+msgid " Cancel "
+msgstr " ยกเลิก "
+
+#: experimental/coursebuilder/views/student_profile.html:84
+msgid " To leave the course permanently, click on Unenroll "
+msgstr " หากต้องการออกจากหลักสูตรโดยถาวร ให้คลิก \"ยกเลิกการลงทะเบียน\" "
+
+#: experimental/coursebuilder/views/student_profile.html:87
+msgid " Unenroll "
+msgstr " ยกเลิกการลงทะเบียน "
+
+#: experimental/coursebuilder/views/summary.html:21
+#: experimental/coursebuilder/views/unit.html:69
+msgid " YouTube Video Player "
+msgstr " YouTube Video Player "
+
+#: experimental/coursebuilder/views/test_confirmation.html:29
+msgid " Back to Course page "
+msgstr " กลับไปที่หน้าหลักสูตร "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:12
+msgid " You have been unenrolled from "
+msgstr " คุณได้ยกเลิกการลงทะเบียนจาก "
+
+#: experimental/coursebuilder/views/unenroll_confirmation.html:17
+msgid " OK "
+msgstr " ตกลง "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:12
+msgid " Are you sure you want to unenroll from "
+msgstr " คุณแน่ใจหรือว่าต้องการยกเลิกการลงทะเบียนจาก "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:19
+msgid " Yes "
+msgstr " ใช่ "
+
+#: experimental/coursebuilder/views/unenroll_confirmation_check.html:22
+msgid " No "
+msgstr " ไม่ใช่ "
+
